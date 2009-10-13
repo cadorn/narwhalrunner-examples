@@ -6,8 +6,8 @@ These are sample applications and extensions for the [NarwhalRunner](http://gith
 
   * [bespin-editor-app](http://github.com/cadorn/narwhalrunner-examples/tree/master/packages/bespin-editor-app/) - a port of [despin](http://github.com/past/despin)
 
-Running the Eamples
-===================
+Running the Examples
+====================
 
 You need to have a testing playground setup.
 
