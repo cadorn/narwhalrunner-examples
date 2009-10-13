@@ -1,0 +1,14 @@
+{
+    "name": "narwhalrunner-examples",
+    "dependencies": [
+        "narwhal",
+        [
+            "bespin-editor-app",
+            {
+                "catalog": "file://./catalog.json",
+                "package": "bespin-editor-app",
+                "revision": "latest"
+            }
+        ]
+    ]
+}
