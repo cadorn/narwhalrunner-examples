@@ -5,7 +5,7 @@
         [
             "bespin-editor-app",
             {
-                "catalog": "file://./catalog.json",
+                "catalog": "http://github.com/cadorn/narwhalrunner-examples/raw/master/catalog.json",
                 "package": "bespin-editor-app",
                 "revision": "latest"
             }

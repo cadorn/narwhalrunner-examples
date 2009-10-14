@@ -1,6 +1,9 @@
 {
     "name": "com.github.cadorn.narwhalrunner-examples",
     "type": "sea",
+    "origin": {
+        "locate": "http://github.com/cadorn/narwhalrunner-examples/raw/master/catalog.json"
+    },
     "packages": {
         "nr-devtools": [
             [
@@ -16,9 +19,10 @@
             [
                 "latest",
                 {
-                    "locate": "file://./packages/bespin-editor-app",
+                    "locate": "http://github.com/cadorn/narwhalrunner-examples/raw/master/catalog.json",
+                    "path": "packages/bespin-editor-app",
                     "package": "bespin-editor-app",
-                    "revision": "latest"
+                    "revision": "master"
                 }
             ]
         ]
