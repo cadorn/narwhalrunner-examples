@@ -18,3 +18,4 @@ The following instructions assume you have a testing playground setup as describ
     
     // Launch the app
     nr launch --dev --app firefox --package bespin-editor-app
+    
