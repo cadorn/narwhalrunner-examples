@@ -19,7 +19,7 @@
             [
                 "latest",
                 {
-                    "locate": "http://github.com/cadorn/narwhalrunner-examples/raw/master/catalog.json",
+                    "catalog": "http://github.com/cadorn/narwhalrunner-examples/raw/master/catalog.json",
                     "path": "packages/bespin-editor-app",
                     "package": "bespin-editor-app",
                     "revision": "master"

@@ -9,10 +9,7 @@ These are sample applications and extensions for the [NarwhalRunner](http://gith
 Running the Examples
 ====================
 
-You need to have a testing playground setup.
-
-    TODO: Instructions
-
+You need to have a testing playground setup as described under *Setup -> Instructions* [here](http://github.com/cadorn/narwhalrunner).
 
 License
 =======
