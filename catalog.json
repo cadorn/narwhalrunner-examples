@@ -16,10 +16,15 @@
             ]
         ],
         "bespin-editor-app": [
+            ["source", {
+                "locate": "file://./packages/bespin-editor-app",
+                "package": "bespin-editor-app",
+                "revision": "latest"
+            }],
             [
                 "latest",
                 {
-                    "catalog": "http://github.com/cadorn/narwhalrunner-examples/raw/master/catalog.json",
+                    "locate": "http://github.com/cadorn/narwhalrunner-examples/zipball/master/",
                     "path": "packages/bespin-editor-app",
                     "package": "bespin-editor-app",
                     "revision": "master"
