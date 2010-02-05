@@ -1,21 +1,16 @@
 {
+    "uid": "http://registry.pinf.org/cadorn.org/github/narwhalrunner-examples/packages/bespin-editor-app/",
     "name": "bespin-editor-app",
-    "dependencies": [
-        ["nr-app", {
-            "catalog": "http://github.com/cadorn/narwhalrunner/raw/master/catalog.json",
-            "package": "application",
-            "revision": "latest"
-        }],
-        ["nr-common", {
-            "catalog": "http://github.com/cadorn/narwhalrunner/raw/master/catalog.json",
-            "package": "common",
-            "revision": "latest"
-        }]
-    ],
-    "build": {
-        "defaultTarget": "dev",
-        "targets": {
-            "dev": "nr-app:build/dev",
+    "using": {
+        "nr-app": {
+            "catalog": "http://registry.pinf.org/cadorn.org/github/narwhalrunner/packages/catalog.json",
+            "name": "application",
+            "revision": "master"
+        },
+        "nr-common": {
+            "catalog": "http://registry.pinf.org/cadorn.org/github/narwhalrunner/packages/catalog.json",
+            "name": "common",
+            "revision": "master"
         }
     },
     "narwhalrunner": {
@@ -30,5 +25,20 @@
         "Description": "Description",
         "HomepageURL": "http://github.com/cadorn/narwhalrunner",
         "IconURL": ""
-    }
+    },
+    "pinf": {
+        "builder": {
+            "catalog": "http://registry.pinf.org/cadorn.org/github/narwhalrunner/packages/catalog.json",
+            "name": "devtools",
+            "revision": "master",
+            "module": "builders/application"
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://github.com/cadorn/narwhalrunner-examples.git",
+            "path": "packages/bespin-editor-app"
+        }
+    ]
 }

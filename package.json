@@ -1,14 +1,20 @@
 {
+    "uid": "http://registry.pinf.org/cadorn.org/github/narwhalrunner-examples/",
     "name": "narwhalrunner-examples",
-    "dependencies": [
-        "narwhal",
-        [
-            "bespin-editor-app",
-            {
-                "catalog": "http://github.com/cadorn/narwhalrunner-examples/raw/master/catalog.json",
-                "package": "bespin-editor-app",
-                "revision": "latest"
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://github.com/cadorn/narwhalrunner-examples.git"
+        }
+    ],
+    "pinf": {
+        "platforms": {
+            "narwhalrunner": {
+                "catalog": "http://registry.pinf.org/cadorn.org/github/narwhalrunner/packages/catalog.json",
+                "name": "pinf-platform",
+                "revision": "master"
             }
-        ]
-    ]
+        },
+        "platform": "narwhalrunner"
+    }
 }
