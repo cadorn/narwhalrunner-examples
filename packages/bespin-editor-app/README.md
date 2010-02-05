@@ -8,14 +8,7 @@ A port of [despin](http://github.com/past/despin).
 Running the app
 ---------------
 
-The following instructions assume you have a testing playground setup as described [here](http://github.com/cadorn/narwhalrunner-examples).
+In the example workspace (see [here](http://github.com/cadorn/narwhalrunner-examples) for setup instructions):
 
-    // Install the app
-    tusk package install http://github.com/cadorn/narwhalrunner-examples/raw/master/catalog.json bespin-editor-app
-    
-    // Build the app
-    tusk package --package bespin-editor-app build
-    
-    // Launch the app
-    nr launch --dev --app firefox --package bespin-editor-app
-    
+    pinf build-program packages/bespin-editor-app
+    nr launch --dev --program packages/bespin-editor-app

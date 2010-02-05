@@ -13,8 +13,7 @@ See [narwhalrunner](http://github.com/cadorn/narwhalrunner) for requirements.
 
 Install the examples package:
 
-
-
+    pinf checkout-workspace -s github.com/cadorn/narwhalrunner
 
 Now check with each example for specific instructions.
 
