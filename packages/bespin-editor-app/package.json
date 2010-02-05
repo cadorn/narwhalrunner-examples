@@ -14,6 +14,7 @@
         }
     },
     "narwhalrunner": {
+        "Type": "application",
         "InternalName": "bespin-editor-app",
         "ID": "bespin-editor-app@domain.com",
         "Name": "bespin-editor-app",

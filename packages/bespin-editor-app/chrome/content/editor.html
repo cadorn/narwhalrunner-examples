@@ -1,13 +1,13 @@
 <html>
 <head>
     <title>Despin Text Editor</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="%%PackageChromeURLPrefix%%skin/editor.css" />
-    <link rel="stylesheet" type="text/css" media="print" href="%%PackageChromeURLPrefix%%skin/print.css" />
-    <script src="%%PackageChromeURLPrefix%%content/io.js"></script>
-    <script src="%%PackageChromeURLPrefix%%content/bespin-embedded.js"></script>
-    <script src="%%PackageChromeURLPrefix%%content/editor.js"></script>
-    <script src="%%PackageChromeURLPrefix%%content/jquery-1.3.2.js"></script>
-    <script src="%%PackageChromeURLPrefix%%content/commands.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="__Package.ContentBaseURL__skin/editor.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="__Package.ContentBaseURL__skin/print.css" />
+    <script src="__Package.ContentBaseURL__io.js"></script>
+    <script src="__Package.ContentBaseURL__bespin-embedded.js"></script>
+    <script src="__Package.ContentBaseURL__editor.js"></script>
+    <script src="__Package.ContentBaseURL__jquery-1.3.2.js"></script>
+    <script src="__Package.ContentBaseURL__commands.js"></script>
     <script>
         $(document).ready(function() {
             commands.onLoad();
@@ -17,22 +17,22 @@
 <body>
 <div id="toolbar" class="toolbar">
     <a id="open" href="#" class="button" title="Open file">
-        <img class="button" src="%%PackageChromeURLPrefix%%skin/fileopen.png" alt="Open">
+        <img class="button" src="__Package.ContentBaseURL__skin/fileopen.png" alt="Open">
     </a>
     <a id="save" href="#" class="button" title="Save file">
-        <img class="button" src="%%PackageChromeURLPrefix%%skin/filesave.png" alt="Save">
+        <img class="button" src="__Package.ContentBaseURL__skin/filesave.png" alt="Save">
     </a>
     <a id="saveas" href="#" class="button" title="Save file as">
-        <img class="button" src="%%PackageChromeURLPrefix%%skin/filesaveas.png" alt="Save as">
+        <img class="button" src="__Package.ContentBaseURL__skin/filesaveas.png" alt="Save as">
     </a>
     <a id="print" href="#" class="button" title="Print file">
-        <img class="button" src="%%PackageChromeURLPrefix%%skin/fileprint.png" alt="Print">
+        <img class="button" src="__Package.ContentBaseURL__skin/fileprint.png" alt="Print">
     </a>
     <a id="scratch" href="#" class="button" title="Open scratchpad">
-        <img class="button" src="%%PackageChromeURLPrefix%%skin/scratchpad.png" alt="Scratchpad">
+        <img class="button" src="__Package.ContentBaseURL__skin/scratchpad.png" alt="Scratchpad">
     </a>
     <a id="options" href="#" class="button" title="Edit preferences">
-        <img class="button" src="%%PackageChromeURLPrefix%%skin/preferences.png" alt="Preferences">
+        <img class="button" src="__Package.ContentBaseURL__skin/preferences.png" alt="Preferences">
     </a>
 </div>
 <div id="editor"></div>

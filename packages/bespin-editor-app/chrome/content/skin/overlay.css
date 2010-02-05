@@ -1,0 +1,11 @@
+#despin-button {
+  list-style-image: url("__Package.ContentBaseURL__skin/logo-24.png");
+}
+
+toolbar[iconsize="small"] #despin-button {
+  list-style-image: url("__Package.ContentBaseURL__skin/logo.png");
+}
+
+#despintoolsmenu {
+  list-style-image: url("__Package.ContentBaseURL__skin/logo.png");
+}
